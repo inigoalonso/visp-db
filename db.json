@@ -1,8 +1,8 @@
 {
   "projects": [
-    { "id": 1, "name": "Project 1" },
-    { "id": 2, "name": "Project 2" },
-    { "id": 3, "name": "Project 3" }
+    { "id": 1, "name": "Project 1", "description": "A fine project" },
+    { "id": 2, "name": "Project 2", "description": "A fine project" },
+    { "id": 3, "name": "Project 3", "description": "A fine project" }
   ],
   "stakeholders": [
     { "id": 1, "name": "Person 1", "organization": "Org A", "type": "Internal" },
