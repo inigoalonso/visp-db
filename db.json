@@ -5,8 +5,8 @@
     { "id": 3, "name": "Project 3", "description": "A fine project" }
   ],
   "stakeholders": [
-    { "id": 1, "name": "Person 1", "organization": "Org A", "type": "Internal" },
-    { "id": 2, "name": "Person 2", "organization": "Org B", "type": "External" }
+    { "id": 1, "name": "Person 1", "organization": "Org A", "type": "Internal", "description": "Controls the thingamabobs" },
+    { "id": 2, "name": "Person 2", "organization": "Org B", "type": "External", "description": "Supplies gizmos" }
   ],
   "needs": [
     { "id": 1, "name": "Need 1", "description": "A fine need" },
