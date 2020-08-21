@@ -1,0 +1,16 @@
+{
+  "projects": [
+    { "id": 1, "name": "Project 1" },
+    { "id": 2, "name": "Project 2" },
+    { "id": 3, "name": "Project 3" }
+  ],
+  "stakeholders": [
+    { "id": 1, "name": "Person 1", "organization": "Org A", "type": "Internal" },
+    { "id": 2, "name": "Person 2", "organization": "Org B", "type": "External" }
+  ],
+  "needs": [
+    { "id": 1, "name": "Need 1", "description": "A fine need" },
+    { "id": 2, "name": "Need 2", "description": "A fine need indeed" },
+    { "id": 3, "name": "Need 3", "description": "A fine need in deed it is" }
+  ]
+}
