@@ -15,7 +15,7 @@
       "needs": [
         {
           "id": 1,
-          "value": "Do not intrude into the passenger space nor crush zones",
+          "needName": "Do not intrude into the passenger space nor crush zones",
           "description": "",
           "stakeholders": [],
           "consequences": "",
@@ -30,7 +30,7 @@
         },
         {
           "id": 2,
-          "value": "Fit in the space between steering column, cross car beam and instrument panel",
+          "needName": "Fit in the space between steering column, cross car beam and instrument panel",
           "description": "",
           "stakeholders": [],
           "consequences": "",
@@ -40,7 +40,7 @@
         },
         {
           "id": 3,
-          "value": "Easy to replace",
+          "needName": "Easy to replace",
           "description": "",
           "stakeholders": [],
           "consequences": "",
@@ -56,7 +56,7 @@
         },
         {
           "id": 4,
-          "value": "Provide information to driver",
+          "needName": "Provide information to driver",
           "description": "",
           "stakeholders": [],
           "consequences": "",
@@ -70,7 +70,7 @@
         },
         {
           "id": 5,
-          "value": "No image quality issues",
+          "needName": "No image quality issues",
           "description": "",
           "stakeholders": [],
           "consequences": "",
@@ -87,7 +87,7 @@
         },
         {
           "id": 6,
-          "value": "Further position of virtual image",
+          "needName": "Further position of virtual image",
           "description": "",
           "stakeholders": [],
           "consequences": "",
@@ -97,7 +97,7 @@
         },
         {
           "id": 7,
-          "value": "Easy for drivers to adjust to their height",
+          "needName": "Easy for drivers to adjust to their height",
           "description": "",
           "stakeholders": [],
           "consequences": "",
@@ -107,7 +107,7 @@
         },
         {
           "id": 8,
-          "value": "Maintain windshield shape within brand design language",
+          "needName": "Maintain windshield shape within brand design language",
           "description": "",
           "stakeholders": [],
           "consequences": "",
@@ -117,7 +117,7 @@
         },
         {
           "id": 9,
-          "value": "Minimize energy waste",
+          "needName": "Minimize energy waste",
           "description": "",
           "stakeholders": [],
           "consequences": "",
@@ -131,7 +131,7 @@
         },
         {
           "id": 10,
-          "value": "Minimize noise",
+          "needName": "Minimize noise",
           "description": "",
           "stakeholders": [],
           "consequences": "",
