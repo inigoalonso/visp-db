@@ -20,12 +20,13 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": [
+          "valueDriversOld": [
             "Clashes with steering wheel ride-down",
             "Firewall intrusions",
             "Unit deformability",
             "Attachment position"
-          ]
+          ],
+          "valueDrivers": ["Position (X mm, Y mm, Z mm)", "Volume (mm^3)"]
         },
         {
           "id": 2,
@@ -34,7 +35,8 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": ["Unit volume"]
+          "valueDriversOld": ["Unit volume"],
+          "valueDrivers": ["Volume (mm^3)"]
         },
         {
           "id": 3,
@@ -43,13 +45,14 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": [
+          "valueDriversOld": [
             "Accessibility",
             "Inspectability",
             "Reparability",
             "Maintenance complexity",
             "Updatability"
-          ]
+          ],
+          "valueDrivers": ["Flexibility", "Accesibility"]
         },
         {
           "id": 4,
@@ -58,7 +61,12 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": ["Image size", "Field of View (FoV)", "Eyebox size"]
+          "valueDriversOld": [
+            "Image size",
+            "Field of View (FoV)",
+            "Eyebox size"
+          ],
+          "valueDrivers": ["Perceived quality"]
         },
         {
           "id": 5,
@@ -67,14 +75,15 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": [
+          "valueDriversOld": [
             "Reflections/Glare",
             "Image contrast",
             "Image sharpness",
             "Windscreen optical parameters",
             "Projector brightness",
             "Attachment dampening"
-          ]
+          ],
+          "valueDrivers": ["Perceived quality"]
         },
         {
           "id": 6,
@@ -83,7 +92,8 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": ["Projected View distance"]
+          "valueDriversOld": ["Projected View distance"],
+          "valueDrivers": ["Volume (mm^3)"]
         },
         {
           "id": 7,
@@ -92,7 +102,8 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": ["Eyebox position", "User height range"]
+          "valueDriversOld": ["Eyebox position", "User height range"],
+          "valueDrivers": ["Perceived quality"]
         },
         {
           "id": 8,
@@ -101,7 +112,8 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": ["Optical path", "Windscreen design"]
+          "valueDriversOld": ["Optical path", "Windscreen design"],
+          "valueDrivers": ["Volume (mm^3)"]
         },
         {
           "id": 9,
@@ -110,11 +122,12 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": [
+          "valueDriversOld": [
             "Electricity consumption",
             "Energy consumption",
             "Drag"
-          ]
+          ],
+          "valueDrivers": ["Energy (Wh)"]
         },
         {
           "id": 10,
@@ -123,6 +136,7 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
+          "valueDriversOld": ["Noise"],
           "valueDrivers": ["Noise"]
         }
       ],
