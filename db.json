@@ -1,5 +1,6 @@
 {
-  "projects": [{
+  "projects": [
+    {
       "id": 1,
       "name": "VISP - Glue Gun",
       "description": "A toy problem",
@@ -11,7 +12,8 @@
       "id": 2,
       "name": "VISP - HUD",
       "description": "Head-Up Display use case for VCG",
-      "needs": [{
+      "needs": [
+        {
           "id": 1,
           "value": "Do not intrude into the passenger space nor crush zones",
           "description": "",
@@ -32,9 +34,7 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": [
-            "Unit volume"
-          ]
+          "valueDrivers": ["Unit volume"]
         },
         {
           "id": 3,
@@ -58,11 +58,7 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": [
-            "Image size",
-            "Field of View (FoV)",
-            "Eyebox size"
-          ]
+          "valueDrivers": ["Image size", "Field of View (FoV)", "Eyebox size"]
         },
         {
           "id": 5,
@@ -87,9 +83,7 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": [
-            "Projected View distance"
-          ]
+          "valueDrivers": ["Projected View distance"]
         },
         {
           "id": 7,
@@ -98,10 +92,7 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": [
-            "Eyebox position",
-            "User height range"
-          ]
+          "valueDrivers": ["Eyebox position", "User height range"]
         },
         {
           "id": 8,
@@ -110,10 +101,7 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": [
-            "Optical path",
-            "Windscreen design"
-          ]
+          "valueDrivers": ["Optical path", "Windscreen design"]
         },
         {
           "id": 9,
@@ -135,12 +123,11 @@
           "stakeholders": [],
           "consequences": "",
           "examples": "",
-          "valueDrivers": [
-            "Noise"
-          ]
+          "valueDrivers": ["Noise"]
         }
       ],
-      "stakeholders": [{
+      "stakeholders": [
+        {
           "id": 1,
           "name": "Person 1",
           "organization": "Org A",
@@ -155,25 +142,30 @@
           "description": "Supplies gizmos"
         }
       ],
-      "valueCreationStrategies": [{
+      "valueCreationStrategies": [
+        {
           "id": 1,
           "name": "Without HUD",
-          "description": "Use the other information display areas"
+          "description": "Use the other information display areas",
+          "ranking": [8, 10, 9, 4, 5, 6, 7, 3, 2, 1]
         },
         {
           "id": 2,
           "name": "Current solution",
-          "description": "Maintain performance levels, without changing the current technology"
+          "description": "Maintain performance levels, without changing the current technology",
+          "ranking": [1, 4, 2, 8, 5, 7, 6, 3, 10, 9]
         },
         {
           "id": 3,
           "name": "Increase performance with current technology",
-          "description": "Increase the performance or functionality, but maintain the current technology"
+          "description": "Increase the performance or functionality, but maintain the current technology",
+          "ranking": [1, 2, 3, 4, 8, 5, 7, 6, 10, 9]
         },
         {
           "id": 4,
           "name": "Increase performance with new technology",
-          "description": "Increase the performance or functionality, by using a new technology"
+          "description": "Increase the performance or functionality, by using a new technology",
+          "ranking": [1, 2, 4, 8, 5, 7, 6, 3, 10, 9]
         }
       ]
     },
