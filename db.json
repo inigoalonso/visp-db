@@ -1,16 +1,189 @@
 {
-  "projects": [
-    { "id": 1, "name": "Project 1", "description": "A fine project" },
-    { "id": 2, "name": "Project 2", "description": "A fine project" },
-    { "id": 3, "name": "Project 3", "description": "A fine project" }
-  ],
-  "stakeholders": [
-    { "id": 1, "name": "Person 1", "organization": "Org A", "type": "Internal", "description": "Controls the thingamabobs" },
-    { "id": 2, "name": "Person 2", "organization": "Org B", "type": "External", "description": "Supplies gizmos" }
-  ],
-  "needs": [
-    { "id": 1, "name": "Need 1", "description": "A fine need" },
-    { "id": 2, "name": "Need 2", "description": "A fine need indeed" },
-    { "id": 3, "name": "Need 3", "description": "A fine need in deed it is" }
+  "projects": [{
+      "id": 1,
+      "name": "VISP - Glue Gun",
+      "description": "A toy problem",
+      "needs": [],
+      "stakeholders": [],
+      "valueCreationStrategies": []
+    },
+    {
+      "id": 2,
+      "name": "VISP - HUD",
+      "description": "Head-Up Display use case for VCG",
+      "needs": [{
+          "id": 1,
+          "value": "Do not intrude into the passenger space nor crush zones",
+          "description": "",
+          "stakeholders": [],
+          "consequences": "",
+          "examples": "",
+          "valueDrivers": [
+            "Clashes with steering wheel ride-down",
+            "Firewall intrusions",
+            "Unit deformability",
+            "Attachment position"
+          ]
+        },
+        {
+          "id": 2,
+          "value": "Fit in the space between steering column, cross car beam and instrument panel",
+          "description": "",
+          "stakeholders": [],
+          "consequences": "",
+          "examples": "",
+          "valueDrivers": [
+            "Unit volume"
+          ]
+        },
+        {
+          "id": 3,
+          "value": "Easy to replace",
+          "description": "",
+          "stakeholders": [],
+          "consequences": "",
+          "examples": "",
+          "valueDrivers": [
+            "Accessibility",
+            "Inspectability",
+            "Reparability",
+            "Maintenance complexity",
+            "Updatability"
+          ]
+        },
+        {
+          "id": 4,
+          "value": "Provide information to driver",
+          "description": "",
+          "stakeholders": [],
+          "consequences": "",
+          "examples": "",
+          "valueDrivers": [
+            "Image size",
+            "Field of View (FoV)",
+            "Eyebox size"
+          ]
+        },
+        {
+          "id": 5,
+          "value": "No image quality issues",
+          "description": "",
+          "stakeholders": [],
+          "consequences": "",
+          "examples": "",
+          "valueDrivers": [
+            "Reflections/Glare",
+            "Image contrast",
+            "Image sharpness",
+            "Windscreen optical parameters",
+            "Projector brightness",
+            "Attachment dampening"
+          ]
+        },
+        {
+          "id": 6,
+          "value": "Further position of virtual image",
+          "description": "",
+          "stakeholders": [],
+          "consequences": "",
+          "examples": "",
+          "valueDrivers": [
+            "Projected View distance"
+          ]
+        },
+        {
+          "id": 7,
+          "value": "Easy for drivers to adjust to their height",
+          "description": "",
+          "stakeholders": [],
+          "consequences": "",
+          "examples": "",
+          "valueDrivers": [
+            "Eyebox position",
+            "User height range"
+          ]
+        },
+        {
+          "id": 8,
+          "value": "Maintain windshield shape within brand design language",
+          "description": "",
+          "stakeholders": [],
+          "consequences": "",
+          "examples": "",
+          "valueDrivers": [
+            "Optical path",
+            "Windscreen design"
+          ]
+        },
+        {
+          "id": 9,
+          "value": "Minimize energy waste",
+          "description": "",
+          "stakeholders": [],
+          "consequences": "",
+          "examples": "",
+          "valueDrivers": [
+            "Electricity consumption",
+            "Energy consumption",
+            "Drag"
+          ]
+        },
+        {
+          "id": 10,
+          "value": "Minimize noise",
+          "description": "",
+          "stakeholders": [],
+          "consequences": "",
+          "examples": "",
+          "valueDrivers": [
+            "Noise"
+          ]
+        }
+      ],
+      "stakeholders": [{
+          "id": 1,
+          "name": "Person 1",
+          "organization": "Org A",
+          "type": "Internal",
+          "description": "Controls the thingamabobs"
+        },
+        {
+          "id": 2,
+          "name": "Person 2",
+          "organization": "Org B",
+          "type": "External",
+          "description": "Supplies gizmos"
+        }
+      ],
+      "valueCreationStrategies": [{
+          "id": 1,
+          "name": "Without HUD",
+          "description": "Use the other information display areas"
+        },
+        {
+          "id": 2,
+          "name": "Current solution",
+          "description": "Maintain performance levels, without changing the current technology"
+        },
+        {
+          "id": 3,
+          "name": "Increase performance with current technology",
+          "description": "Increase the performance or functionality, but maintain the current technology"
+        },
+        {
+          "id": 4,
+          "name": "Increase performance with new technology",
+          "description": "Increase the performance or functionality, by using a new technology"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "VISP - LF",
+      "description": "Lower Front use case for VGTT",
+      "needs": [],
+      "stakeholders": [],
+      "valueCreationStrategies": []
+    }
   ]
 }
