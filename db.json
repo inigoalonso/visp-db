@@ -4,6 +4,16 @@
       "id": 1,
       "name": "VISP - Glue Gun",
       "description": "A toy problem",
+      "architectures": [
+        {
+          "id": 1,
+          "name": "Glue Gun A"
+        },
+        {
+          "id": 2,
+          "name": "Glue Gun B"
+        }
+      ],
       "needs": [],
       "stakeholders": [],
       "valueCreationStrategies": []
@@ -12,6 +22,16 @@
       "id": 2,
       "name": "VISP - HUD",
       "description": "Head-Up Display use case for VCG",
+      "architectures": [
+        {
+          "id": 1,
+          "name": "HUD A"
+        },
+        {
+          "id": 2,
+          "name": "HUD B"
+        }
+      ],
       "needs": [
         {
           "id": 1,
@@ -187,6 +207,16 @@
       "id": 3,
       "name": "VISP - LF",
       "description": "Lower Front use case for VGTT",
+      "architectures": [
+        {
+          "id": 1,
+          "name": "Lower Front A"
+        },
+        {
+          "id": 2,
+          "name": "Lower Front B"
+        }
+      ],
       "needs": [],
       "stakeholders": [],
       "valueCreationStrategies": []
