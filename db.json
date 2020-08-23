@@ -1,17 +1,15 @@
 {
-  "projects": [
-    {
+  "projects": [{
       "id": 1,
       "name": "VISP - Glue Gun",
       "description": "A toy problem",
-      "architectures": [
-        {
+      "architectures": [{
           "id": 1,
-          "name": "Glue Gun A"
+          "name": "Glue Gun Wired"
         },
         {
           "id": 2,
-          "name": "Glue Gun B"
+          "name": "Glue Gun Wireless"
         }
       ],
       "needs": [],
@@ -22,14 +20,12 @@
       "id": 2,
       "name": "VISP - HUD",
       "description": "Head-Up Display use case for VCG",
-      "architectures": [
-        {
-          "id": 1,
-          "name": "Volvo XC90 Sport"
-        }
-      ],
-      "needs": [
-        {
+      "architectures": [{
+        "id": 1,
+        "name": "Volvo XC90 Sport",
+        "description": "Luxury SUV with a sporting edge"
+      }],
+      "needs": [{
           "id": 1,
           "needName": "Do not intrude into the passenger space nor crush zones",
           "description": "",
@@ -156,8 +152,7 @@
           "valueDrivers": ["Noise"]
         }
       ],
-      "stakeholders": [
-        {
+      "stakeholders": [{
           "id": 1,
           "name": "Person 1",
           "organization": "Org A",
@@ -172,8 +167,7 @@
           "description": "Supplies gizmos"
         }
       ],
-      "valueCreationStrategies": [
-        {
+      "valueCreationStrategies": [{
           "id": 1,
           "name": "Without HUD",
           "description": "Use the other information display areas",
@@ -203,14 +197,13 @@
       "id": 3,
       "name": "VISP - LF",
       "description": "Lower Front use case for VGTT",
-      "architectures": [
-        {
+      "architectures": [{
           "id": 1,
-          "name": "Lower Front A"
+          "name": "Lower Front Friday"
         },
         {
           "id": 2,
-          "name": "Lower Front B"
+          "name": "Lower Front Monday"
         }
       ],
       "needs": [],
