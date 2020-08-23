@@ -25,11 +25,7 @@
       "architectures": [
         {
           "id": 1,
-          "name": "HUD A"
-        },
-        {
-          "id": 2,
-          "name": "HUD B"
+          "name": "Volvo XC90 Sport"
         }
       ],
       "needs": [
