@@ -221,52 +221,44 @@
           "name": "Without HUD",
           "description": "Use the other information display areas",
           "ranking": [8, 10, 9, 4, 5, 6, 7, 3, 2, 1],
-          "metrics": [
-            {
-              "flexibility": 0.5,
-              "volume": 0,
-              "quality": 0.3
-            }
-          ]
+          "metrics": {
+            "flexibility": 0.5,
+            "volume": 0,
+            "quality": 0.3
+          }
         },
         {
           "id": 2,
           "name": "Current solution",
           "description": "Maintain performance levels, without changing the current technology",
           "ranking": [1, 4, 2, 8, 5, 7, 6, 3, 10, 9],
-          "metrics": [
-            {
-              "flexibility": 1,
-              "volume": 1,
-              "quality": 1
-            }
-          ]
+          "metrics": {
+            "flexibility": 1,
+            "volume": 1,
+            "quality": 1
+          }
         },
         {
           "id": 3,
           "name": "Increase performance with current technology",
           "description": "Increase the performance or functionality, but maintain the current technology",
           "ranking": [1, 2, 3, 4, 8, 5, 7, 6, 10, 9],
-          "metrics": [
-            {
-              "flexibility": 0.8,
-              "volume": 1.2,
-              "quality": 1.2
-            }
-          ]
+          "metrics": {
+            "flexibility": 0.8,
+            "volume": 1.2,
+            "quality": 1.2
+          }
         },
         {
           "id": 4,
           "name": "Increase performance with new technology",
           "description": "Increase the performance or functionality, by using a new technology",
           "ranking": [1, 2, 4, 8, 5, 7, 6, 3, 10, 9],
-          "metrics": [
-            {
-              "flexibility": 1.1,
-              "volume": 0.9,
-              "quality": 1.3
-            }
-          ]
+          "metrics": {
+            "flexibility": 1.1,
+            "volume": 0.9,
+            "quality": 1.3
+          }
         }
       ]
     },
