@@ -161,16 +161,58 @@
         {
           "id": 1,
           "name": "Person 1",
-          "organization": "Org A",
+          "organization": "VCG",
           "type": "Internal",
-          "role": "Controls the thingamabobs"
+          "role": "Principal Engineer Solidity (Squeak & Rattle)"
         },
         {
           "id": 2,
           "name": "Person 2",
-          "organization": "Org B",
-          "type": "External",
-          "role": "Supplies gizmos"
+          "organization": "VCG",
+          "type": "Internal",
+          "role": "Attribute Leader Ergonomics"
+        },
+        {
+          "id": 3,
+          "name": "Person 3",
+          "organization": "VCG",
+          "type": "Internal",
+          "role": "Cockpit Integration (Blockleader)"
+        },
+        {
+          "id": 4,
+          "name": "Person 4",
+          "organization": "VCG",
+          "type": "Internal",
+          "role": "Expert Studio Engineer"
+        },
+        {
+          "id": 5,
+          "name": "Person 5",
+          "organization": "VCG",
+          "type": "Internal",
+          "role": "Product Owner"
+        },
+        {
+          "id": 6,
+          "name": "Person 6",
+          "organization": "VCG",
+          "type": "Internal",
+          "role": "Safety Attribute Leader"
+        },
+        {
+          "id": 7,
+          "name": "Person 7",
+          "organization": "VCG",
+          "type": "Internal",
+          "role": "Mech Integration"
+        },
+        {
+          "id": 8,
+          "name": "Person 8",
+          "organization": "VCG",
+          "type": "Internal",
+          "role": "Lead Engineer HUD"
         }
       ],
       "valueCreationStrategies": [
